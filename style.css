@@ -1,0 +1,176 @@
+html, body {
+    margin: 0;
+}
+* {
+    font-family: 'Roboto', sans-serif;
+}    
+body {
+    color: black;
+}
+
+header{
+    width:100%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 10px;
+    
+}
+
+.flex-learn{
+    display:flex;
+    padding: 0px;
+}
+
+.flex-list{
+    display:flex;
+    padding: 2px;
+}
+
+.topnav{
+    justify-content: space-around;
+}
+.container2 {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px 0px 0px;
+    padding: 10px;
+    width: 100%;
+}
+
+.container3 {
+    display:flex;
+}
+
+.flex-list2 {
+    padding: 6px 0px 6px;
+    width:100%;
+}
+
+header{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+    color: #000;
+    width: 100%;
+}
+
+section{
+    font-family: 'Roboto', sans-serif;
+}
+
+.hr1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #20a8b4
+}
+
+.hr2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color:#ff5c0f;
+    width: 100%;
+}
+
+.hr3{
+    font-size: 25px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.hr4{
+    font-size: 25px;
+    font-weight: bold;
+    color:#ff5c0f;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.button {
+    background-color:#20a8b4;
+    border: none;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    width:100%; 
+    padding: 12px;
+}
+
+.button:hover {
+    background-color: #ff5c0f;
+}
+
+a:hover {
+    color: #ff5c0f;
+}
+
+.img {
+width: 100%;
+height: auto;
+padding: 0px 0px 0px 0px;
+}
+
+.mobile-hide {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .mobile-hide {
+        display: block;
+    }
+    .button{
+        width: auto;
+        padding: 10px;
+        color: white;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    
+    .container2{
+        flex-shrink:0;
+        margin: 0px;
+        width: auto;
+    }
+
+    .flex-list2{
+        flex-grow: 2;
+    }
+
+    .container3{
+        display: flex;
+        align-items:center;
+        padding: 50px 0px 0px 0px;
+        justify-content: space-between;
+    }
+  
+    .flex-img{
+      width:45%;
+      flex-grow: 0;
+      padding: 0px 15px;
+    }
+
+
+    .flex-list{
+        display: inline-flex;
+        justify-content: flex-end;
+        
+    }
+    
+}
